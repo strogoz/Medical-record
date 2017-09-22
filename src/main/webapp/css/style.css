@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lobster', sans-serif;;
+    font-size: 100%;
+}
+
+.authorizationBut {
+    text-decoration:none;
+    text-align:center;
+    padding:11px 63px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    font:18px "Lobster", sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+    background:#7aa1bd;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.header-main {
+    padding: 100px 0px 50px;
+    width: 23%;
+    margin: 0 auto;
+}
+
+.authorizationBox {
+    background: rgb(247,247,247);
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 10px;
+}
