@@ -1,19 +1,19 @@
 public class Patient extends User {
 
     /**
-     * Строка типа пользователя
+     * РЎС‚СЂРѕРєР° С‚РёРїР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
      */
     private final static String STRING_ROLE_OF_USER = "Patient";
     /**
-     * Полное имя пациента
+     * РџРѕР»РЅРѕРµ РёРјСЏ РїР°С†РёРµРЅС‚Р°
      */
     private String fullName;
     /**
-     * Дата рождения пациента
+     * Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ РїР°С†РёРµРЅС‚Р°
      */
     private String dateOfBirthday;
     /**
-     * Номер телефона пациента
+     * РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° РїР°С†РёРµРЅС‚Р°
      */
     private int phoneNumber;
 
@@ -24,3 +24,4 @@ public class Patient extends User {
 
     }
 }
+
