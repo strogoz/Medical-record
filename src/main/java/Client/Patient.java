@@ -1,3 +1,8 @@
+package Client;
+
+/**
+ * Класс, реализующий пациента
+ */
 public class Patient extends User {
 
     /**
