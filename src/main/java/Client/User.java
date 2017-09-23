@@ -14,6 +14,14 @@ public class User {
      */
     private String password;
     /**
+     * Роль пользователя
+     */
+    private String role;
+    /**
+     * Строка типа пользователя "администратор"
+     */
+    public static final String ADMIN = "admin";
+    /**
      * Установить логин пользователя
      */
     public void setLogin(String login) {
@@ -27,6 +35,14 @@ public class User {
     }
 
     /**
+     * Установить роль пользователя
+     * @param role роль
+     */
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    /**
      * Конструктор
      * @param login логин пользователя
      * @param password пароль пользователя
@@ -34,6 +50,14 @@ public class User {
     public User(String login, String password) {
         this.login = login;
         this.password = password;
+    }
+
+    /**
+     * Пустой конструктор
+     */
+    public User() {
+        login = null;
+        password = null;
     }
 
     /**
@@ -49,5 +73,13 @@ public class User {
      */
     public String getPassword() {
         return password;
+    }
+
+    /**
+     * Получить роль пользователя
+     * @return роль
+     */
+    public String getRole() {
+        return role;
     }
 }
